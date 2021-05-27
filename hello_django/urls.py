@@ -21,6 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 ]
 
-urlpatterns += [
+urlpatterns = [
     path('myhello/', include('myhello.urls')),
 ]
